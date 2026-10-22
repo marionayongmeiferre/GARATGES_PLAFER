@@ -1,0 +1,22 @@
+node_modules
+dist
+.vercel
+.DS_Store
+*.local
+
+# Claves. Nunca, jamás, en el repositorio.
+.env
+.env.*
+!.env.example
+
+# ─── Material de trabajo, no es la web ──────────────────────────────────
+# Las fotos originales pesan 22 MB. Las versiones reducidas que usa la web
+# están en public/fotos y esas sí van al repositorio.
+PARKING PLAFER MALLORCA/
+imagenes_genericas/
+info.png
+refe.jpg
+*.docx
+
+# ─── Prototipo viejo en HTML plano, sustituido por el proyecto Vite ─────
+assets/
